@@ -7,4 +7,6 @@ C:\Users\Denis\Documents\Unik\Proga\PR-1\obj\Debug\PR-1.csproj.GenerateResource.
 C:\Users\Denis\Documents\Unik\Proga\PR-1\obj\Debug\PR-1.csproj.CoreCompileInputs.cache
 C:\Users\Denis\Documents\Unik\Proga\PR-1\obj\Debug\PR_1.exe
 C:\Users\Denis\Documents\Unik\Proga\PR-1\obj\Debug\PR_1.pdb
-C:\Users\Denis\Documents\Unik\Proga\PR-1\obj\Debug\PR_1.Form1.resources
+C:\Users\Denis\Documents\Unik\Proga\PR-1\obj\Debug\PR_1.Arrays_Form.resources
+C:\Users\Denis\Documents\Unik\Proga\PR-1\obj\Debug\PR_1.Function_Form.resources
+C:\Users\Denis\Documents\Unik\Proga\PR-1\obj\Debug\PR_1.Matrix_Form.resources

@@ -1,5 +1,5 @@
 ﻿namespace PR_1 {
-    partial class Form1 {
+    partial class Function_Form {
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -30,7 +30,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Function_Form));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.Xn = new System.Windows.Forms.TextBox();
@@ -46,15 +46,20 @@
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.ErrorField = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.WorkArraysToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ArraysToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.MatrixToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(37, 23);
+            this.label1.Location = new System.Drawing.Point(37, 36);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 27);
             this.label1.TabIndex = 0;
@@ -63,7 +68,7 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(124, 23);
+            this.label2.Location = new System.Drawing.Point(124, 36);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 27);
             this.label2.TabIndex = 1;
@@ -72,7 +77,7 @@
             // Xn
             // 
             this.Xn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Xn.Location = new System.Drawing.Point(37, 62);
+            this.Xn.Location = new System.Drawing.Point(37, 75);
             this.Xn.Name = "Xn";
             this.Xn.Size = new System.Drawing.Size(81, 31);
             this.Xn.TabIndex = 2;
@@ -81,7 +86,7 @@
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(298, 23);
+            this.label3.Location = new System.Drawing.Point(298, 36);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 27);
             this.label3.TabIndex = 3;
@@ -90,7 +95,7 @@
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(211, 23);
+            this.label4.Location = new System.Drawing.Point(211, 36);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(41, 27);
             this.label4.TabIndex = 4;
@@ -99,7 +104,7 @@
             // Xk
             // 
             this.Xk.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Xk.Location = new System.Drawing.Point(124, 62);
+            this.Xk.Location = new System.Drawing.Point(124, 75);
             this.Xk.Name = "Xk";
             this.Xk.Size = new System.Drawing.Size(81, 31);
             this.Xk.TabIndex = 5;
@@ -108,7 +113,7 @@
             // h
             // 
             this.h.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.h.Location = new System.Drawing.Point(211, 62);
+            this.h.Location = new System.Drawing.Point(211, 75);
             this.h.Name = "h";
             this.h.Size = new System.Drawing.Size(81, 31);
             this.h.TabIndex = 6;
@@ -117,7 +122,7 @@
             // a
             // 
             this.a.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.a.Location = new System.Drawing.Point(298, 62);
+            this.a.Location = new System.Drawing.Point(298, 75);
             this.a.Name = "a";
             this.a.Size = new System.Drawing.Size(81, 31);
             this.a.TabIndex = 7;
@@ -126,7 +131,7 @@
             // Perform_Calc
             // 
             this.Perform_Calc.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Perform_Calc.Location = new System.Drawing.Point(385, 62);
+            this.Perform_Calc.Location = new System.Drawing.Point(385, 75);
             this.Perform_Calc.Name = "Perform_Calc";
             this.Perform_Calc.Size = new System.Drawing.Size(134, 31);
             this.Perform_Calc.TabIndex = 8;
@@ -223,7 +228,38 @@
             this.ErrorField.Size = new System.Drawing.Size(342, 27);
             this.ErrorField.TabIndex = 12;
             // 
-            // Form1
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { this.WorkArraysToolStripMenuItem });
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1095, 31);
+            this.menuStrip1.TabIndex = 13;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // WorkArraysToolStripMenuItem
+            // 
+            this.WorkArraysToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { this.ArraysToolStripMenuItem, this.MatrixToolStripMenuItem });
+            this.WorkArraysToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.WorkArraysToolStripMenuItem.Name = "WorkArraysToolStripMenuItem";
+            this.WorkArraysToolStripMenuItem.Size = new System.Drawing.Size(175, 27);
+            this.WorkArraysToolStripMenuItem.Text = "Робота з масивами";
+            // 
+            // ArraysToolStripMenuItem
+            // 
+            this.ArraysToolStripMenuItem.Name = "ArraysToolStripMenuItem";
+            this.ArraysToolStripMenuItem.Size = new System.Drawing.Size(244, 28);
+            this.ArraysToolStripMenuItem.Text = "Одновимірні масиви";
+            this.ArraysToolStripMenuItem.Click += new System.EventHandler(this.ArraysToolStripMenuItem_Click);
+            // 
+            // MatrixToolStripMenuItem
+            // 
+            this.MatrixToolStripMenuItem.Name = "MatrixToolStripMenuItem";
+            this.MatrixToolStripMenuItem.Size = new System.Drawing.Size(244, 28);
+            this.MatrixToolStripMenuItem.Text = "Двовимірні масиви";
+            this.MatrixToolStripMenuItem.Click += new System.EventHandler(this.MatrixToolStripMenuItem_Click);
+            // 
+            // Function_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -241,14 +277,24 @@
             this.Controls.Add(this.Xn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
+            this.Name = "Function_Form";
+            this.Text = "Функції";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
         }
+
+        private System.Windows.Forms.ToolStripMenuItem WorkArraysToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ArraysToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem MatrixToolStripMenuItem;
+
+        private System.Windows.Forms.MenuStrip menuStrip1;
 
         private System.Windows.Forms.Label ErrorField;
 

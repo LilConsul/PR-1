@@ -2,9 +2,11 @@
 using System.Windows.Forms;
 
 namespace PR_1 {
-    public partial class Form1 : Form {
-        public Form1() {
+    public partial class Function_Form : Form {
+        public Function_Form() {
             InitializeComponent();
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
         }
 
         private void Perform_Calc_Click(object sender, EventArgs e) {
@@ -32,6 +34,21 @@ namespace PR_1 {
                     Math.Round(tab.xy[i, 1], 3).ToString());
                 chart1.Series[0].Points.AddXY(tab.xy[i, 0], tab.xy[i, 1]);
             }
+            
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+        }
+
+        private void ArraysToolStripMenuItem_Click(object sender, EventArgs e) {
+            Arrays_Form form = new Arrays_Form();
+            form.Show();
+            this.Hide();
+        }
+
+        private void MatrixToolStripMenuItem_Click(object sender, EventArgs e) {
+            Matrix_Form form = new Matrix_Form();
+            form.Show();
+            this.Hide();
         }
     }
 }

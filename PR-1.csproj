@@ -48,17 +48,37 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Form1.cs">
+        <Compile Include="Array.cs" />
+        <Compile Include="Arrays_Form.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="Arrays_Form.Designer.cs">
+          <DependentUpon>Arrays_Form.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Function_Form.cs">
             <SubType>Form</SubType>
         </Compile>
-        <Compile Include="Form1.Designer.cs">
-            <DependentUpon>Form1.cs</DependentUpon>
+        <Compile Include="Function_Form.Designer.cs">
+            <DependentUpon>Function_Form.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Matrix.cs" />
+        <Compile Include="Matrix_Form.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="Matrix_Form.Designer.cs">
+          <DependentUpon>Matrix_Form.cs</DependentUpon>
         </Compile>
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
         <Compile Include="Table.cs" />
-        <EmbeddedResource Include="Form1.resx">
-          <DependentUpon>Form1.cs</DependentUpon>
+        <EmbeddedResource Include="Arrays_Form.resx">
+          <DependentUpon>Arrays_Form.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Function_Form.resx">
+          <DependentUpon>Function_Form.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Matrix_Form.resx">
+          <DependentUpon>Matrix_Form.cs</DependentUpon>
         </EmbeddedResource>
         <EmbeddedResource Include="Properties\Resources.resx">
             <Generator>ResXFileCodeGenerator</Generator>
