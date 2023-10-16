@@ -2,9 +2,9 @@ C:\Users\Denis\Documents\Unik\Proga\PR-1\bin\Debug\PR_1.exe.config
 C:\Users\Denis\Documents\Unik\Proga\PR-1\bin\Debug\PR_1.exe
 C:\Users\Denis\Documents\Unik\Proga\PR-1\bin\Debug\PR_1.pdb
 C:\Users\Denis\Documents\Unik\Proga\PR-1\obj\Debug\PR-1.csproj.AssemblyReference.cache
-C:\Users\Denis\Documents\Unik\Proga\PR-1\obj\Debug\PR-1.csproj.SuggestedBindingRedirects.cache
 C:\Users\Denis\Documents\Unik\Proga\PR-1\obj\Debug\PR_1.Properties.Resources.resources
 C:\Users\Denis\Documents\Unik\Proga\PR-1\obj\Debug\PR-1.csproj.GenerateResource.cache
 C:\Users\Denis\Documents\Unik\Proga\PR-1\obj\Debug\PR-1.csproj.CoreCompileInputs.cache
 C:\Users\Denis\Documents\Unik\Proga\PR-1\obj\Debug\PR_1.exe
 C:\Users\Denis\Documents\Unik\Proga\PR-1\obj\Debug\PR_1.pdb
+C:\Users\Denis\Documents\Unik\Proga\PR-1\obj\Debug\PR_1.Form1.resources
